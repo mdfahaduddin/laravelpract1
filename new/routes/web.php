@@ -22,3 +22,5 @@ Route::get('/updateprofile', function(){
 
 });
 
+Route::get('/', 'App\Http\Controllers\SingleCtrl');
+
