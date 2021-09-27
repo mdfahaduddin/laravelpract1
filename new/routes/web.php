@@ -3,4 +3,4 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/Name/{namevalue}','App\Http\Controllers\Democtrl@MyName');
+Route::get('/Name/{firstname}/{middlename}/{lastname}','App\Http\Controllers\Democtrl@MyName');
