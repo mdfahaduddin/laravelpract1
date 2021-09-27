@@ -21,4 +21,7 @@ class SiteController extends Controller
     function Service(){
         return view('ServicePage');
     }
+    function Portfolio(){
+        return view('Portfolio');
+    }
 }

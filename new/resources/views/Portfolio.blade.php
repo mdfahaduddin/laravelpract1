@@ -1,5 +1,4 @@
-<h1>Home Page</h1>
-
+<h1>Portfolio</h1>
 
 <a href="{{url('/')}}" >Home</a></br>
 <a href="{{url('portfolio')}}" >Portfolio</a></br>
