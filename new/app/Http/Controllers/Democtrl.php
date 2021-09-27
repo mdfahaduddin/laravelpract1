@@ -8,7 +8,6 @@ class Democtrl extends Controller
 {
     function MyName($firstname,$middlename,$lastname) {
 
-        
-        return "First Name:" . $firstname . "</br>Middle Name:" . $middlename . "</br>Last Name:" . $lastname;
+        return view('DemoView',[ 'fkey'=>$firstname, 'mkey'=>$middlename, 'lkey'=>$lastname ]);
     }
 }
