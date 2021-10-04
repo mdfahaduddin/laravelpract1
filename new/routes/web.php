@@ -24,5 +24,8 @@ Route::get('/updateprofile', function(){
 
 Route::get('/', 'App\Http\Controllers\SingleCtrl');
 
+Route::get('/custom', 'App\Http\Controllers\HomeCtrl@MySelf');
+Route::get('/custom2', 'App\Http\Controllers\HomeCtrl@YourSelf');
+
 Route::resource('/photos', 'App\Http\Controllers\PhotoController');
 
