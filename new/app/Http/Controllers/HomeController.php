@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     function ShowHome() {
-        $NewsHeadline = "BD Won";
-        return view('Home',['NewsHeadlineKey'=>$NewsHeadline]);
+        $CountryData = array("BD","PAK","USA","SAUDI");
+        return view('Home',['CountryDataKey'=>$CountryData]);
     }
 }
