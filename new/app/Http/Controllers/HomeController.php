@@ -8,6 +8,9 @@ class HomeController extends Controller
 {
     function ShowHome() {
         $CountryData = array("BD","PAK","USA","SAUDI");
-        return view('Home',['CountryDataKey'=>$CountryData]);
+
+        $LoginStatus = false;
+
+        return view('Home',['CountryDataKey'=>$CountryData,'LoginStatusKey'=>$LoginStatus]);
     }
 }
