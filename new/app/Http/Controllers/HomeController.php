@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     function ShowHome() {
-        $CountryData = array("BD","PAK","USA","SAUDI");
+        $CountryData = array("BD","PAK","USA","SAUDI","UK");
 
         $LoginStatus = false;
 
